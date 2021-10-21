@@ -41,6 +41,9 @@ A list of possible responses is found below.
   - Success
     - HTTP Status 200
     - Content of `{}`
+  - Invalid Request Error
+    - HTTP Status 400
+    - Content of `{"msg": "Invalid request. Try again later."}`
   - Authentication Failure
     - HTTP Status 401
     - Content of `{"msg": "Invalid authentication."}`
@@ -49,6 +52,6 @@ A list of possible responses is found below.
     - Content of `{"msg": "Verification failed." "add": "Check that the account owns the username and try again."}`
   - Webhook Failure
     - HTTP Status 500
-    - Content of `{"msg": "Webhook invalid."`}
+    - Content of `{"msg": "Webhook link invalid."`}
       - This is a fuck-up on the service's end, open an issue if this occurs.
   </details>
