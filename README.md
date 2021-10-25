@@ -8,6 +8,7 @@ Ease of use and a consolidated service. This makes announcing easier.
 All sections that aren't applicable until launch are here; they will remain until launch. This is basically pre-documentation.
 ## Can't someone just spam the endpoint?
 <h4> NO. </h4>
+
 In order to prevent spamming, the service has the following restrictions:
  - requires a JWT from Mojang so that the name and UUID are verified correctly
    - hence, this is open-source. the heroku is deployed directly from this repo
