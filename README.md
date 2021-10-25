@@ -44,7 +44,7 @@ A list of possible responses is found below.
     - Content of `{}`
   - Invalid Request Error
     - HTTP Status 400
-    - Content of `{"msg": "Invalid request. Try again later."}`
+    - Content of `{"msg": "Invalid request. Try again after fixing the request."}`
   - Authentication Failure
     - HTTP Status 401
     - Content of `{"msg": "Invalid authentication."}`
